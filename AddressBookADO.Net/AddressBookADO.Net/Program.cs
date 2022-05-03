@@ -11,7 +11,7 @@ namespace AddressBookADO.Net
 
             Console.WriteLine("Welcome to AddressBookSystem using Ado.net");
             AddressBookRepo addressBookRepo = new AddressBookRepo();
-            addressBookRepo.CreateDataBase ();
+            addressBookRepo.CreateTable();
             
         }
     }
